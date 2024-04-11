@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        desktop: "url('./src/assets/images/background-pattern-desktop.svg')",
-        mobile: "url('./src/assets/images/background-pattern-mobile.svg')",
+        desktop: "url('/src/assets/images/background-pattern-desktop.svg')",
+        mobile: "url('/src/assets/images/background-pattern-mobile.svg')",
       },
       fontFamily: {
         sans: ["Work Sans", "sans-serif"],
@@ -13,6 +13,9 @@ export default {
       colors:{
         purple:'#2f1533',
         lightPurple:'#8c6991'
+      },
+      screens:{
+        mobile:{'max':'375px'}
       }
     },
   },
